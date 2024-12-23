@@ -1,5 +1,5 @@
 # JavaScript Learning and Git Workflow
-Yash mishra
+Yash 
 ## Overview
 This repository is dedicated to learning JavaScript concepts and practicing coding skills. It also serves as a practical guide for understanding Git branching, managing a repository, and pushing code to GitHub.
 
