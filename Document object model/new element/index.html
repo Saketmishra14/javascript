@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM || CHAI AUR CODE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <!-- this is a html comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Wednersday</div>
+    </div>
+    
+</body>
+<script>
+const x=document.querySelector('.parent')
+// console.log(x);
+// console.log(x.children);
+// console.log(x.children[3].innerHTML);
+for (let i = 0; i < x.children.length; i++) {
+    // console.log(x.children[i].innerHTML)
+    
+}
+x.children[2].style.color='green'
+// console.log(x.firstElementChild)
+const one=document.querySelector('.day')  
+// console.log(one);
+// console.log(one.parentElement);
+// console.log(one.nextElementSibling);
+// console.log("NODES: ",x.childNodes);
+
+
+const div=document.createElement('div')
+console.log(div);
+div.className="sure"
+div.id=Math.round(Math.random()*10)
+div.style.backgroundColor="green"
+div.innerText="yash mishra"
+document.body.appendChild(div)
+
+
+
+
+
+</script>
+</html>

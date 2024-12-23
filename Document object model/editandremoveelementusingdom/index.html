@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <ul class="language">
+        <li>javascript</li>
+
+    </ul>
+    
+</body>
+<script>
+    function addlanguage(langname) {
+        const li=document.createElement('li')
+        li.innerHTML=`${langname}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addlanguage("python")
+    addlanguage("object oriented programming")  
+
+
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adding p tag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content" class="box">
+        <h1>welcome to my website.</h1>
+    </div>
+    
+</body>
+<script>
+  let contentdiv=document.getElementById('content')
+  const newp=document.createElement('p')
+  newp.textContent="this my  personal website."
+  newp.setAttribute('class',"new-p")
+  contentdiv.appendChild(newp)
+  newp.style.backgroundColor="green"
+  newp.style.width="100%"
+  newp.style.height="300px"
+
+
+
+</script>
+</html>
