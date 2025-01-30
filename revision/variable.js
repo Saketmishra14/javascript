@@ -13,3 +13,8 @@ const value=false;
  console.log(arr);
  const object={name:"saket",age:45,height:55+"cm"}
  console.log(object);
+
+ //operators 
+ let ageperson=20
+ let status=ageperson>=18? "adult":"minor"
+ console.log(status)
