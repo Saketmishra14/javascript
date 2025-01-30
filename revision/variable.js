@@ -18,3 +18,10 @@ const value=false;
  let ageperson=20
  let status=ageperson>=18? "adult":"minor"
  console.log(status)
+  
+ //conditional statement 
+ const password=78;
+
+ if(username==="saket"||password===78){
+    console.log("please fill out all field.")
+ }
