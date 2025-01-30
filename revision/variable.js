@@ -25,3 +25,12 @@ const value=false;
  if(username==="saket"||password===78){
     console.log("please fill out all field.")
  }
+
+ //loops 
+ let colors = ["red", "blue", "green"];
+for (let color of colors) {
+    console.log(color);
+}
+//for...of	Loop through arrays & strings
+//for...in	Loop through object properties
+
