@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # javascript
 # JavaScript Learning and Git Workflow
 
+=======
+# JavaScript Learning and Git Workflow
+Yash mishra
+>>>>>>> master
 ## Overview
 This repository is dedicated to learning JavaScript concepts and practicing coding skills. It also serves as a practical guide for understanding Git branching, managing a repository, and pushing code to GitHub.
 
@@ -31,4 +36,8 @@ This repository covers the following JavaScript topics:
 4. **Projects**
    - Mini-Projects like a Calculator, BMI Generator, etc.
 
+<<<<<<< HEAD
 --
+=======
+---
+>>>>>>> master

@@ -1,0 +1,1 @@
+const weightinput=document.getElementById

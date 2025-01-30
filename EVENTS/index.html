@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Events</title>
+    <style>
+        *{
+            background-color: #414141;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>IMAGE REPROSETARY</h1>
+    <div id="image">
+        <li><img src="https://static.vecteezy.com/system/resources/previews/012/622/268/non_2x/beautiful-sunset-over-the-sea-sky-on-twilight-time-and-reflection-on-the-sea-for-travel-in-holiday-relax-time-free-photo.jpg" alt="" width="200px" id="sunrise"></li>
+        <li><img src="subhome-ai.jpg" alt="" width="200px" id="bubble"></li>
+        <li><img src="tree-736885_640 (1).jpg" alt="" width="200px" id="tree"></li>
+        <li><img src="violet-colorful-sunset-sky-on-the-beach-free-photo.webp" alt="" width="200px" id="trees"></li>
+        <li><img src="depositphotos_81581474-stock-photo-palm-trees-silhouettes.jpg" alt="" width="200px" id="beach"></li>
+        <li><a href="https://www.google.co.in/" id="google">google</a></li>
+      
+    </div>
+
+    
+</body>
+ <script>
+    // document.getElementById('sunrise').onclick=function () {
+    //     alert("sun clicked")
+    // }
+
+    document.getElementById('image').addEventListener('click',function (e) {
+        alert("clicked inside the ul")
+        
+    })
+    document.getElementById('bubble').addEventListener('click',function (e) {
+        alert("bubble clicked")
+        
+    })
+
+    document.getElementById('google').addEventListener('click',function (e) {
+        e.stopPropagation()
+        e.preventDefault()
+        alert("google clicked.")
+        
+    })
+    document.querySelector('#image').addEventListener('click',function (e) {
+        console.log(e.target.parentNode);
+        let removeit=e.target.parentNode
+        removeit.remove()
+        
+        
+    })
+
+    //attachevent()
+    //j-query-on event listener
+
+    
+
+
+</script>
+</html>
