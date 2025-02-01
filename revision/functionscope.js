@@ -12,3 +12,11 @@ const gree=(name)=>{
 
 }
 gree("yash")
+
+//parameter & arguments
+
+const morning=(name="yash")=>{   //parameter
+    console.log(`${name}, Good morning`)
+}
+morning("saket")   // argument 
+morning()
