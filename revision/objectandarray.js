@@ -6,3 +6,12 @@ const person = {
     }
 };
 console.log(person.name)
+console.log(person)
+
+//object destructuring 
+
+const {name,age,greet}=person
+console.log(name)
+
+//array method (map(),filter(),reduce(),find(),some(),every())
+
