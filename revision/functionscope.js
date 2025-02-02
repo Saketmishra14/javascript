@@ -20,3 +20,12 @@ const morning=(name="yash")=>{   //parameter
 }
 morning("saket")   // argument 
 morning()
+
+//higher - order function (passing function as arguments)
+function greets(names){
+    return `hello,${names}`
+}
+function processuser(names,callback){
+    console.log(callback(names))
+}
+processuser("yash",greets)
