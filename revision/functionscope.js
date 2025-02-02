@@ -29,3 +29,15 @@ function processuser(names,callback){
     console.log(callback(names))
 }
 processuser("yash",greets)
+
+//closure -: A closure in JavaScript is a function that remembers the variables from its outer scope, even after the outer function has finished executing.
+
+
+function outerfunction(outervariable){
+    return function innerfunction(innervariable){
+        console.log(`inner:${innervariable} outer:${outervariable}`)
+    }
+}
+
+const newfunction=outerfunction("saket")
+newfunction("world")
