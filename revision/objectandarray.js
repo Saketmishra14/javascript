@@ -15,3 +15,4 @@ console.log(name)
 
 //array method (map(),filter(),reduce(),find(),some(),every())
 
+
